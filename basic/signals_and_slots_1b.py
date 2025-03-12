@@ -1,9 +1,10 @@
 import sys
-from PyQt6. QtWidgets import (
+from PyQt6.QtWidgets import (
     QApplication,
     QMainWindow,
     QPushButton
 )
+
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -19,7 +20,8 @@ class MainWindow(QMainWindow):
         print("Clicked!")
 
     def the_button_was_toggled(self, is_checked):
-        print( "Checked?", is_checked)
+        print("Checked?", is_checked)
+
 
 app = QApplication(sys.argv)
 window = MainWindow()
