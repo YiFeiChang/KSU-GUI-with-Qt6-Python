@@ -13,6 +13,7 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("My App")
 
         tabs = QTabWidget()
+        tabs.setDocumentMode(True)
         tabs.setTabPosition(QTabWidget.TabPosition.West)
         tabs.setMovable(True)
 
